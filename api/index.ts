@@ -1,9 +1,7 @@
-#!/usr/bin/env -S deno run --version 2.1.4
 import { Card } from "../src/card.ts";
 import { CONSTANTS, parseParams } from "../src/utils.ts";
 import { COLORS, Theme } from "../src/theme.ts";
 import { Error400 } from "../src/error_page.ts";
-import "@std/dotenv/load";
 import { staticRenderRegeneration } from "../src/StaticRenderRegeneration/index.ts";
 import { GithubRepositoryService } from "../src/Repository/GithubRepository.ts";
 import { GithubApiService } from "../src/Services/GithubApiService.ts";
